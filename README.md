@@ -16,16 +16,38 @@
 4.
 
 ## Program:
-```
+```python
 /*
 Program to implement XOR Logic Gate.
 Developed by   :
 RegisterNumber :  
 */
+
+import numpy as np
+from keras.models import Sequential
+from keras.layers.core import Dense
+
+training_data=np.array([[0,0],[0,1],[1,0],[1,1]],"float32")
+target_data=np.array([[0],[1],[1],[0]],"float32")
+
+model=Sequential()
+model.add(Dense(16,input_dim=2,activation='relu'))
+model.add(Dense(1,activation='sigmoid'))
+model.compile(loss='mean_squared_error',
+                    optimizer='adam',
+                    metrics=['binary_accuracy'])
+model.fit(training_data,target_data,epochs=1000)
+scores=model.evaluate(training_data,target_data)
+
+print("\n%s: %.2f%%" % (model.metrics_names[1],scores[1]*100))
+print(model.predict(training_data).round())
+
 ```
 
 ## Output:
-![XOR GATE](XXX.png)
+
+![Screenshot (15)](https://user-images.githubusercontent.com/75234646/168518291-ffea8d92-0644-4301-8c38-a74c6302cd53.png)
+
 
 
 ## Result:
