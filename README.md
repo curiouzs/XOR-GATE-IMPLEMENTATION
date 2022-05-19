@@ -1,4 +1,4 @@
-### EX NO : 
+### EX NO : 08
 ### DATE  :
 # <p align="center"> XOR GATE IMPLEMENTATION </p>
 ## Aim:
@@ -10,10 +10,11 @@
 ## Related Theory Concept:
 
 ## Algorithm
-1.
-2.
-3.
-4.
+1. Import the required libraries.
+2. Create the training dataset.
+3. Create the neural network model with one hidden layer.
+4. Train the model with training data.
+5. Now test the model with testing data.
 
 ## Program:
 ```python
