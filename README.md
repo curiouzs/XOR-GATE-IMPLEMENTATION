@@ -1,5 +1,5 @@
 ### EX NO : 08
-### DATE  :
+### DATE  : 16.05.22
 # <p align="center"> XOR GATE IMPLEMENTATION </p>
 ## Aim:
    To implement multi layer artificial neural network using back propagation algorithm.
