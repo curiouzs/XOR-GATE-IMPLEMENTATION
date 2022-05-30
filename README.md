@@ -21,6 +21,7 @@ The information of a neural network is stored in the interconnections between th
 5. Now test the model with testing data.
 <br />
 <br />
+<br />
 
 ## Program:
 ```python
@@ -46,6 +47,7 @@ print("\n%s: %.2f%%" % (model.metrics_names[1],scores[1]*100))
 print(model.predict(training_data).round())
 
 ```
+
 <br />
 <br />
 <br />
