@@ -51,7 +51,7 @@ print(model.predict(training_data).round())
 <br />
 <br />
 <br />
-<br />
+
 ## Output:
 ![Screenshot (15)](https://user-images.githubusercontent.com/75234646/168518291-ffea8d92-0644-4301-8c38-a74c6302cd53.png)
 ![xor](https://user-images.githubusercontent.com/75234646/169733551-60f42181-76b8-4d06-b89e-06ada7b525b3.jpg)
