@@ -53,11 +53,13 @@ print(model.predict(training_data).round())
 <br />
 <br />
 <br />
+
 <br />
 <br />
 <br />
 <br />
 <br />
+
 <br />
 <br />
 
