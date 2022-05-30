@@ -19,6 +19,8 @@ The information of a neural network is stored in the interconnections between th
 3. Create the neural network model with one hidden layer.
 4. Train the model with training data.
 5. Now test the model with testing data.
+<br />
+<br />
 
 ## Program:
 ```python
@@ -44,6 +46,12 @@ print("\n%s: %.2f%%" % (model.metrics_names[1],scores[1]*100))
 print(model.predict(training_data).round())
 
 ```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 ## Output:
 ![Screenshot (15)](https://user-images.githubusercontent.com/75234646/168518291-ffea8d92-0644-4301-8c38-a74c6302cd53.png)
 ![xor](https://user-images.githubusercontent.com/75234646/169733551-60f42181-76b8-4d06-b89e-06ada7b525b3.jpg)
